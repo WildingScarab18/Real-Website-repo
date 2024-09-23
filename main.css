@@ -31,10 +31,16 @@ header h1 {
 
 .small-image {
     width: 100px;
-    float: right;
+    float: center;
     margin-right: 10px;
 }
 
+.main-image {
+    width: 1160px;
+    float: center;
+    margin-top: 20px;
+    
+}
 
 nav {
     margin: 20px 0;
