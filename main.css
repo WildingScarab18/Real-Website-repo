@@ -94,7 +94,9 @@ main p {
     font-size: 1em;
     margin-top: 10px;
 }
-
+.lists {
+    max-width: 1200px;
+}
 footer {
     margin-top: 40px;
     text-align: center;
@@ -125,3 +127,14 @@ footer p {
     }
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+.grid-item {
+  
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+}
